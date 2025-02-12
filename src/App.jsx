@@ -8,6 +8,7 @@ import Month from './components/Month'
      <div>
       <Dashboard/>
       <div className="sm:flex">
+      {/* For today's task */}
       <Today/>
       <Month/>
       </div>
